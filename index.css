@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', Arial, Calibri, sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #c1423b;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#content {
+    display: block;
+    width: 70%;
+    margin: 3em auto;
+    margin-bottom: 3em;
+}
+
+#header {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 3em;
+}
+
+#header > img {
+    width: 350px;
+}
+
+#main-content{
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: 0 0 0 3px#e9662e, 0 0 0 10px#312555;
+    text-align: center;
+}
+
+.select {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px#e9662e, 0 0 0 5px#312555;
+    margin: 3em;
+}
+
+.select a {
+    display: block;
+    background-color: #312555;
+    box-shadow: 0 0 0 1px#e9662e;
+    padding: 0.75em 1em;
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.select a:hover {
+    display: block;
+    background-color: #e9662e;
+}
+
+.select a:active {
+    display: block;
+    background-color: #c1423b;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+li {
+    display: block;
+    color: black;
+    margin-bottom: 0.75em;
+}
+
+li a {
+    color: #c1423b;
+    text-decoration: none;
+}
